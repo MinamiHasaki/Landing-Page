@@ -13,7 +13,7 @@ header {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 20px 200px;
+    padding: 20px 300px;
 }
 
 .logo {
@@ -39,8 +39,9 @@ nav a {
     align-items: center;
     background-color: #1f2937;
     display: flex;
+    gap: 50px;
     justify-content: space-between;
-    padding: 100px 200px;
+    padding: 100px 300px;
 }
 
 .title {
@@ -68,7 +69,7 @@ nav a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px 200px;
+    padding: 100px 300px;
 }
 
 .information > p {
@@ -105,8 +106,8 @@ nav a {
     background-color: #e5e7eb;
     color: #1f2937;
     font-size: 36px;
-    font-style: oblique;
-    padding: 100px 200px;
+    font-style: italic;
+    padding: 100px 300px;
 }
 
 .quote figcaption {
@@ -116,7 +117,7 @@ nav a {
 }
 
 .signup {
-    padding: 100px 200px;
+    padding: 100px 300px;
 }
 
 .action {
@@ -129,11 +130,21 @@ nav a {
     padding: 50px 100px;
 }
 
+.action p {
+    margin: 5px;
+}
+
+.action p:first-of-type {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .signup-button {
     background-color: #3882f6;
     border: solid #f9faf8 2px;
     border-radius: 5px;
     color: #f9faf8;
+    font-weight: bold;
     padding: 5px 25px;
 }
 
